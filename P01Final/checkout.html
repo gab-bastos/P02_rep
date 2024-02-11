@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Gabe's Guitars</title>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+
+  <header>
+    <h1>Gabe's Guitars</h1>
+
+    <h4>A place to buy some of your favourite gear.</h4>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="listings_page.html">Guitars</a>
+      <a href="#events">Events</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <h2>Your Cart</h2>
+  </header>
+
+  <body>
+    <div class="cart-item">
+      <img src="assets/Pro2Tele.png" alt="American Pro II Telecaster" />
+      <p>American Pro II Telecaster</p>
+      <h4>Price: $2399.99</h4>
+    </div>
+
+    <div class="cart-item">
+      <img src="assets/PlayerStrat.png" alt="Fender Player Stratocaster" />
+      <p>Fender Player Stratocaster</p>
+      <h4>Price: $1099.99</h4>
+    </div>
+
+    <div class="total">
+      <p>Total Amount:</p>
+      <h4>$3499.98</h4>
+    </div>
+
+    <form>
+      <fieldset class="review-text">
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" placeholder="**** **** **** ****" />
+
+        <label for="expiryDate">Expiry Date:</label>
+        <input type="text" id="expiryDate" placeholder="MM/YYYY" />
+
+        <label>Card Type:</label>
+
+        <label>
+          <input type="radio" name="cardType" value="visa" checked />
+          Visa
+        </label>
+
+        <label>
+          <input type="radio" name="cardType" value="mastercard" />
+          MasterCard
+        </label>
+
+        <label>
+          <input type="radio" name="cardType" value="amex" />
+          American Express
+        </label>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" placeholder="123" />
+      </fieldset>
+      <div class="review-action">
+        <button type="submit" class="btn">Checkout</button>
+        <button type="reset" class="btn">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
