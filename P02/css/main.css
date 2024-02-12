@@ -1,0 +1,230 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+@font-face {
+  font-family: "PP Acma";
+  src: url("./fonts/PPAcma-Semibold.otf") format("opentype");
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 2rem;
+}
+
+section {
+  margin-top: 1rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: white;
+}
+
+h1 {
+  font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  color: white;
+}
+
+h3 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-top: 0;
+  font-weight: 300;
+  color: #94d5d9;
+}
+
+h5 {
+  font-weight: 400;
+  font-style: oblique;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  width: 80%;
+}
+
+nav a {
+  font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+  margin: 0 0.75rem 0 0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #cf473e;
+}
+
+/* In text link styling */
+
+p a,
+h5 a {
+  color: white;
+  transition: color 0.2s;
+}
+
+p a:hover,
+h5 a:hover {
+  color: #cf473e;
+}
+
+p a:focus,
+h5 a:focus {
+  border: 1px solid #cf473e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Img link styling - Adapted from ChatGPT */
+
+a img {
+  transition: transform 0.2s;
+  width: 10rem;
+  height: auto;
+}
+
+.cart-item img{
+  margin-top: 3rem;
+  width: 10rem;
+  height: auto;
+}
+
+a:hover img {
+  transform: scale(1.05);
+}
+
+code {
+  background-color: #3c3c3c;
+  padding: 0.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover,
+.button-nav:focus {
+  background-color: rgb(200, 200, 200);
+}
+
+/* Styling for the review forms - Adapted from Shay Howe */
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+form {
+  border: 1px solid #94d5d9;
+  border-radius: 5px;
+  margin: 0;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input,
+.btn {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25rem;
+}
+.review-text {
+  padding: 20px 20px 0 20px;
+}
+.review-text label {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 0.1rem;
+}
+.review-text input,
+textarea {
+  border: 1px solid #94d5d9;
+  padding: 6px;
+  margin-top: 6px;
+}
+.review-action {
+  display: flex;
+  gap: 10px;
+  background: #000000;
+  padding: 20px;
+}
+.review-action .btn {
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid #94d5d9;
+  float: left;
+  padding: 8px 16px;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  border: 1px solid black;
+  background: #cf473e;
+}
+.review-action label {
+  color: #94d5d9;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+/* Product Styling */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -2rem;
+}
+
+.product{
+  box-sizing: border-box;
+  margin: 2rem;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/

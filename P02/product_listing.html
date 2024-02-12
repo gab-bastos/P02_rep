@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Gabe's Guitars</title>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+
+  <header>
+    <h1>Gabe's Guitars</h1>
+
+    <h4>A place to buy some of your favourite gear.</h4>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="listings_page.html">Guitars</a>
+      <a href="#events">Events</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <h2>Fender American Pro II Telecaster</h2>
+    <img src="./assets/Pro2Tele.png" alt="American Pro II Telecaster" />
+    <h3>$2399.99</h3>
+  </header>
+
+  <body>
+    <section class="element">
+      <p>
+        The American Professional II Telecaster® draws from more than seventy
+        years of innovation, inspiration and evolution to meet the demands of
+        today's working player. Our popular Deep "C" neck now sports smooth
+        rolled fingerboard edges, a "Super-Natural" satin finish and a newly
+        sculpted neck heel for a supremely comfortable feel and easy access to
+        the upper register. New V-Mod II Telecaster single-coil pickups are more
+        articulate than ever while delivering the twang, snap and snarl that
+        made the Tele famous. The new top-load/string-through bridge with
+        compensated "bullet" saddles is our most comfortable, flexible Tele
+        bridge yet - retaining classic brass-saddle tone and providing excellent
+        intonation and flexible setup options, allowing you to tailor the
+        tension and tone of each string to your liking. The American Pro II
+        Telecaster delivers instant familiarity and sonic versatility you'll
+        feel and hear right away, with broad ranging improvements that add up to
+        nothing less than a new standard for professional instruments.
+      </p>
+      <a href="checkout.html">
+        <div class="review-action">
+          <button type="cart" class="btn">Add to Cart</button>
+        </div>
+      </a>
+    </section>
+
+    <section class="element">
+      <h3>Leave a review:</h3>
+      <form>
+        <fieldset class="review-text">
+          <label>
+            Your Name
+            <input type="text" name="name" />
+          </label>
+
+          <label>
+            Review
+            <textarea type="review" name="review"> </textarea>
+          </label>
+          <div>Rating</div>
+          <label> <input type="radio" name="rating" value="1" /> 1* </label>
+
+          <label> <input type="radio" name="rating" value="2" /> 2* </label>
+
+          <label> <input type="radio" name="rating" value="3" /> 3* </label>
+
+          <label> <input type="radio" name="rating" value="4" /> 4* </label>
+
+          <label> <input type="radio" name="rating" value="5" /> 5* </label>
+        </fieldset>
+
+        <fieldset class="review-action">
+          <input class="btn" type="submit" name="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
