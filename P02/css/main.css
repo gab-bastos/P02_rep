@@ -2,13 +2,10 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
-@font-face {
-  font-family: "PP Acma";
-  src: url("./fonts/PPAcma-Semibold.otf") format("opentype");
-}
+
 body {
-  background-color: black;
-  color: white;
+  background-color: #FAF9ED;
+  color: #3F3F37;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   padding: 2rem;
@@ -26,17 +23,17 @@ section {
 }
 
 h1 {
-  font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Moret";
   font-size: 3rem;
   margin-bottom: 0;
 }
 
 h2 {
-  font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Moret";
   font-size: 1.75rem;
   margin-top: 4rem;
   margin-bottom: 0;
-  color: white;
+  color: #3F3F37;
 }
 
 h3 {
