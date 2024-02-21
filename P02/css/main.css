@@ -4,8 +4,8 @@
 */
 
 body {
-  background-color: #FAF9ED;
-  color: #3F3F37;
+  background-color: #faf9ed;
+  color: #3f3f37;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   padding: 2rem;
@@ -19,7 +19,7 @@ section {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: #3F3F37;
+  border-top-color: #3f3f37;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h2 {
   font-size: 1.75rem;
   margin-top: 4rem;
   margin-bottom: 0;
-  color: #3F3F37;
+  color: #3f3f37;
 }
 
 h3 {
@@ -46,7 +46,7 @@ h3 {
 h4 {
   margin-top: 0;
   font-weight: 300;
-  color: #3F3F37;
+  color: #3f3f37;
 }
 
 h5 {
@@ -60,16 +60,44 @@ p {
   width: 80%;
 }
 
-nav a {
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+/* NAV STYLING */
+
+nav {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  font-size: .8em;
   font-weight: 400;
-  color: #3F3F37;
-  margin: 0 0.75rem 0 0;
+  color: #3f3f37;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-nav a:hover,
-nav a:focus {
+nav ul li a:hover,
+nav ul li a:focus {
   color: #cf473e;
 }
 
@@ -77,7 +105,7 @@ nav a:focus {
 
 p a,
 h5 a {
-  color: #3F3F37;
+  color: #3f3f37;
   transition: color 0.2s;
 }
 
@@ -101,7 +129,7 @@ a img {
   height: auto;
 }
 
-.cart-item img{
+.cart-item img {
   margin-top: 3rem;
   width: 10rem;
   height: auto;
@@ -126,7 +154,7 @@ code {
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
-  color: #3F3F37;
+  color: #3f3f37;
   background-color: rgb(50, 50, 50);
   text-decoration: none;
   transition-property: background-color;
@@ -145,7 +173,7 @@ code {
   box-sizing: border-box;
 }
 form {
-  border: 1px solid #84BFB5;
+  border: 1px solid #84bfb5;
   border-radius: 5px;
   margin: 0;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -173,33 +201,33 @@ input,
 }
 .review-text input,
 textarea {
-  border: 1px solid #84BFB5;
+  border: 1px solid #84bfb5;
   padding: 6px;
   margin-top: 6px;
 }
 .review-action {
   display: flex;
   gap: 10px;
-  background: #84BFB5;
+  background: #84bfb5;
   padding: 20px;
 }
 .review-action .btn {
-  background: #3F3F37;
+  background: #3f3f37;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
-  border: 1px solid #84BFB5;
+  border: 1px solid #84bfb5;
   float: left;
   padding: 8px 16px;
   transition: background 0.2s;
 }
 
 .btn:hover {
-  border: 1px solid #84BFB5;
+  border: 1px solid #84bfb5;
   background: #cf473e;
 }
 .review-action label {
-  color: #84BFB5;
+  color: #84bfb5;
   font-size: 12px;
   float: left;
   margin: 10px 0 0 20px;
@@ -214,7 +242,7 @@ textarea {
   margin: 0 -2rem;
 }
 
-.product{
+.product {
   box-sizing: border-box;
   margin: 2rem;
 }
