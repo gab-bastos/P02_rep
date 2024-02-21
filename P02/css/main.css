@@ -19,7 +19,7 @@ section {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: white;
+  border-top-color: #3F3F37;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h3 {
 h4 {
   margin-top: 0;
   font-weight: 300;
-  color: #94d5d9;
+  color: #3F3F37;
 }
 
 h5 {
@@ -59,9 +59,8 @@ p {
 }
 
 nav a {
-  font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 500;
-  color: white;
+  font-weight: 400;
+  color: #3F3F37;
   margin: 0 0.75rem 0 0;
   text-decoration: none;
   transition: color 0.2s;
@@ -76,7 +75,7 @@ nav a:focus {
 
 p a,
 h5 a {
-  color: white;
+  color: #3F3F37;
   transition: color 0.2s;
 }
 
@@ -111,7 +110,7 @@ a:hover img {
 }
 
 code {
-  background-color: #3c3c3c;
+  background-color: #dbd8c0;
   padding: 0.5rem;
   display: block;
   margin-bottom: 1rem;
@@ -125,7 +124,7 @@ code {
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
-  color: white;
+  color: #3F3F37;
   background-color: rgb(50, 50, 50);
   text-decoration: none;
   transition-property: background-color;
@@ -179,11 +178,11 @@ textarea {
 .review-action {
   display: flex;
   gap: 10px;
-  background: #000000;
+  background: #94d5d9;
   padding: 20px;
 }
 .review-action .btn {
-  background: black;
+  background: #3F3F37;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -194,7 +193,7 @@ textarea {
 }
 
 .btn:hover {
-  border: 1px solid black;
+  border: 1px solid #94d5d9;
   background: #cf473e;
 }
 .review-action label {
