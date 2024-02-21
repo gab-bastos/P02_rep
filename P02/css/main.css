@@ -24,12 +24,14 @@ section {
 
 h1 {
   font-family: "Moret";
+  font-weight: 400;
   font-size: 3rem;
   margin-bottom: 0;
 }
 
 h2 {
   font-family: "Moret";
+  font-weight: 400;
   font-size: 1.75rem;
   margin-top: 4rem;
   margin-bottom: 0;
@@ -143,7 +145,7 @@ code {
   box-sizing: border-box;
 }
 form {
-  border: 1px solid #94d5d9;
+  border: 1px solid #84BFB5;
   border-radius: 5px;
   margin: 0;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -171,14 +173,14 @@ input,
 }
 .review-text input,
 textarea {
-  border: 1px solid #94d5d9;
+  border: 1px solid #84BFB5;
   padding: 6px;
   margin-top: 6px;
 }
 .review-action {
   display: flex;
   gap: 10px;
-  background: #94d5d9;
+  background: #84BFB5;
   padding: 20px;
 }
 .review-action .btn {
@@ -186,18 +188,18 @@ textarea {
   color: #fff;
   cursor: pointer;
   font-weight: bold;
-  border: 1px solid #94d5d9;
+  border: 1px solid #84BFB5;
   float: left;
   padding: 8px 16px;
   transition: background 0.2s;
 }
 
 .btn:hover {
-  border: 1px solid #94d5d9;
+  border: 1px solid #84BFB5;
   background: #cf473e;
 }
 .review-action label {
-  color: #94d5d9;
+  color: #84BFB5;
   font-size: 12px;
   float: left;
   margin: 10px 0 0 20px;
