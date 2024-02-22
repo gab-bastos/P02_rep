@@ -22,6 +22,7 @@ section {
   border-top-color: #3f3f37;
 }
 
+/* HEADER STYLING */
 h1 {
   font-family: "Moret";
   font-weight: 400;
@@ -33,7 +34,7 @@ h2 {
   font-family: "Moret";
   font-weight: 400;
   font-size: 1.75rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
   margin-bottom: 0;
   color: #3f3f37;
 }
@@ -44,8 +45,8 @@ h3 {
 }
 
 h4 {
-  margin-top: 0;
-  font-weight: 300;
+  margin-top: 2em;
+  font-weight: 400;
   color: #3f3f37;
 }
 
@@ -60,7 +61,7 @@ p {
   width: 80%;
 }
 
-.header-container{
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -89,7 +90,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 400;
   color: #3f3f37;
   text-decoration: none;
@@ -125,12 +126,6 @@ h5 a:focus {
 
 a img {
   transition: transform 0.2s;
-  width: 10rem;
-  height: auto;
-}
-
-.cart-item img {
-  margin-top: 3rem;
   width: 10rem;
   height: auto;
 }
@@ -176,7 +171,7 @@ form {
   border: 1px solid #84bfb5;
   border-radius: 5px;
   margin: 0;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   width: 240px;
 }
@@ -188,7 +183,7 @@ fieldset {
 input,
 .btn {
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0.25rem;
 }
 .review-text {
@@ -197,19 +192,21 @@ input,
 .review-text label {
   display: block;
   font-weight: normal;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.2em;
 }
 .review-text input,
 textarea {
   border: 1px solid #84bfb5;
   padding: 6px;
-  margin-top: 6px;
+  margin-top: .5em;
+  margin-bottom: 1em;
 }
 .review-action {
   display: flex;
   gap: 10px;
   background: #84bfb5;
   padding: 20px;
+  margin-top: 1em;
 }
 .review-action .btn {
   background: #3f3f37;
@@ -245,6 +242,21 @@ textarea {
 .product {
   box-sizing: border-box;
   margin: 2rem;
+}
+
+/* CART ITEM STYLING */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  box-sizing: border-box;
+  }
+
+.cart-item img {
+  margin-top: 1em;
+  width: 5em;
+  height: auto;
+  margin-bottom: 1em;
 }
 
 /* 
