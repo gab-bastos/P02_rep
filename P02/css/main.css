@@ -58,7 +58,7 @@ h5 {
 
 p {
   margin-top: 0;
-  width: 80%;
+  max-width: 100%;
 }
 
 .header-container {
@@ -259,6 +259,17 @@ textarea {
   margin-bottom: 1em;
 }
 
+/* ABOUT PAGE STYLING */
+.about-image img{
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-image p{
+  display: flex;
+  align-items:last baseline;
+}
 /* 
   TEXT ELEMENTS -------------------
 */
