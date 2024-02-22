@@ -168,17 +168,15 @@ code {
   box-sizing: border-box;
 }
 form {
-  border: 1px solid #84bfb5;
-  border-radius: 5px;
   margin: 0;
   font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   width: 240px;
 }
 fieldset {
-  border: 0;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 input,
 .btn {
@@ -186,9 +184,7 @@ input,
   font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0.25rem;
 }
-.review-text {
-  padding: 20px 20px 0 20px;
-}
+
 .review-text label {
   display: block;
   font-weight: normal;
@@ -204,27 +200,22 @@ textarea {
 .review-action {
   display: flex;
   gap: 10px;
-  background: #84bfb5;
-  padding: 20px;
-  margin-top: 1em;
 }
 .review-action .btn {
-  background: #3f3f37;
+  background: #84bfb5;
+  border: 0;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
-  border: 1px solid #84bfb5;
   float: left;
   padding: 8px 16px;
   transition: background 0.2s;
 }
 
 .btn:hover {
-  border: 1px solid #84bfb5;
   background: #cf473e;
 }
 .review-action label {
-  color: #84bfb5;
   font-size: 12px;
   float: left;
   margin: 10px 0 0 20px;
