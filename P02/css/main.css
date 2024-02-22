@@ -168,7 +168,6 @@ code {
   box-sizing: border-box;
 }
 form {
-  margin: 0;
   font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   width: 240px;
@@ -235,7 +234,18 @@ textarea {
   margin: 2rem;
 }
 
+/* CART PAGE STYLING */
+.cart-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
 /* CART ITEM STYLING */
+.cart-items {
+  flex-grow: 1;
+}
 .cart-item {
   display: flex;
   justify-content:flex-start;
