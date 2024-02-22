@@ -171,36 +171,37 @@ form {
   font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   width: 240px;
+  border: 2px solid #84bfb5;
+  border-radius: 5px;
+  background-color: #29272116;
 }
 fieldset {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   border: 0;
 }
 input,
 .btn {
   border-radius: 5px;
   font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 0.25rem;
+  margin: 10px;
 }
 
-.review-text label {
+.form-text label {
   display: block;
   font-weight: normal;
   margin-bottom: 0.2em;
 }
-.review-text input,
-textarea {
-  border: 1px solid #84bfb5;
+.form-text input, textarea{
+  border: 2px solid #84bfb5;
   padding: 6px;
   margin-top: .5em;
-  margin-bottom: 1em;
 }
-.review-action {
+
+.form-action {
   display: flex;
-  gap: 10px;
 }
-.review-action .btn {
+.form-action .btn {
   background: #84bfb5;
   border: 0;
   color: #fff;
@@ -214,7 +215,7 @@ textarea {
 .btn:hover {
   background: #cf473e;
 }
-.review-action label {
+.form-action label {
   font-size: 12px;
   float: left;
   margin: 10px 0 0 20px;
@@ -264,12 +265,24 @@ textarea {
   margin-bottom: 1em;
 }
 
+.total{
+  display: flex;
+  align-items: baseline;
+}
+
+.total p{
+  margin-left: 2em;
+}
+
 /* ABOUT PAGE STYLING */
 .about-image img{
   margin-top: 1rem;
   max-width: 100%;
   height: auto;
 }
+
+/* CONTACT FORM STYLING */
+
 
 /* 
   TEXT ELEMENTS -------------------
