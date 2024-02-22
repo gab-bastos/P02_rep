@@ -247,10 +247,14 @@ textarea {
 /* CART ITEM STYLING */
 .cart-item {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   align-items: baseline;
   box-sizing: border-box;
-  }
+}
+
+.cart-item p, .cart-item h4{
+  margin-left: 2em;
+}
 
 .cart-item img {
   margin-top: 1em;
