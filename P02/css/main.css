@@ -7,8 +7,8 @@
   src: url("./fonts/PPAcma-Semibold.otf") format("opentype");
 }
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #3F3F37;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   padding: 2rem;
@@ -36,7 +36,7 @@ h2 {
   font-size: 1.75rem;
   margin-top: 4rem;
   margin-bottom: 0;
-  color: white;
+  color: #3F3F37;
 }
 
 h3 {
@@ -47,7 +47,7 @@ h3 {
 h4 {
   margin-top: 0;
   font-weight: 300;
-  color: #94d5d9;
+  color: #E65A50;
 }
 
 h5 {
@@ -64,7 +64,7 @@ p {
 nav a {
   font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 500;
-  color: white;
+  color: black;
   margin: 0 0.75rem 0 0;
   text-decoration: none;
   transition: color 0.2s;
@@ -72,14 +72,14 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  color: #cf473e;
+  color: #E65A50;
 }
 
 /* In text link styling */
 
 p a,
 h5 a {
-  color: white;
+  color: black;
   transition: color 0.2s;
 }
 
@@ -120,6 +120,9 @@ code {
   margin-bottom: 1rem;
 }
 
+.spacer {
+  padding-bottom: 20px;
+}
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
@@ -146,60 +149,71 @@ code {
 *:after {
   box-sizing: border-box;
 }
+
 form {
-  border: 1px solid #94d5d9;
-  border-radius: 5px;
+  border: 0.2rem solid #94d5d9;
+  border-radius: 10px;
   margin: 0;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1rem/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
-  width: 240px;
+  padding: 3rem;
+  width: 100%;
 }
+
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
+
 input,
 .btn {
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1rem/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0.25rem;
+  margin-top: 2rem;
 }
+
 .review-text {
-  padding: 20px 20px 0 20px;
+  padding-left: 1rem;
 }
+
 .review-text label {
   display: block;
   font-weight: normal;
   margin-bottom: 0.1rem;
 }
+
 .review-text input,
 textarea {
   border: 1px solid #94d5d9;
   padding: 6px;
-  margin-top: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
 .review-action {
   display: flex;
   gap: 10px;
-  background: #000000;
-  padding: 20px;
+  margin-bottom: 2rem;
 }
+
 .review-action .btn {
   background: black;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
-  border: 1px solid #94d5d9;
+  border: none;
   float: left;
   padding: 8px 16px;
   transition: background 0.2s;
 }
 
 .btn:hover {
-  border: 1px solid black;
+  border: none;
   background: #cf473e;
 }
+
 .review-action label {
   color: #94d5d9;
   font-size: 12px;
@@ -221,10 +235,97 @@ textarea {
   margin: 2rem;
 }
 
+.productimg {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.prod-detail-container {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
 /* 
   TEXT ELEMENTS -------------------
 */
 
 /* 
-  COMBINED ELEMENTS -------------------
+  COLUMNS -------------------
 */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1; 
+  margin: px; 
+
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Gap between columns */
+}
+
+.middle-align-col {
+  align-items: center;
+}
+
+.two-item {
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.header-container {
+  overflow: hidden;
+}
+
+.nav-col {
+  width: 40%;
+  float: right;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.nav-logo {
+  width: 60%;
+  float: left;
+  
+}
+
+
+/*
+  HOME ------------------------
+*/
+
+#eventbanner {
+  background-color: #A5E1D7;
+  height: 300px;
+}
+
+/*
+  FOOTER ------------------------
+*/
+
+footer {
+  background-color: #FDEAC8;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+footer p {
+  margin-bottom: 0.7rem;
+}
+
+footer .container {
+  padding-left: 50%;
+}
