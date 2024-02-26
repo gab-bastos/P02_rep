@@ -1,0 +1,24 @@
+/* Product Styling */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -2rem;
+}
+
+.product{
+  box-sizing: border-box;
+  margin: 2rem;
+}
+
+.productimg {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.prod-detail-container {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+}

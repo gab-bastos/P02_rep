@@ -1,0 +1,51 @@
+/* 
+  COLUMNS -------------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1; 
+  margin: px; 
+
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Gap between columns */
+}
+
+.middle-align-col {
+  align-items: center;
+}
+
+.two-item {
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.header-container {
+  overflow: hidden;
+}
+
+.nav-col {
+  width: 40%;
+  float: right;
+  text-align: right;
+  padding-top: 1rem;
+}
+
+.nav-logo {
+  width: 60%;
+  float: left;
+  
+}
