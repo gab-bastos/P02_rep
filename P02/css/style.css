@@ -1,0 +1,480 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+body {
+<<<<<<< HEAD
+  background-color: #faf9ed;
+  color: #3f3f37;
+=======
+  background-color: white;
+  color: #3F3F37;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 2rem;
+}
+
+section {
+  margin-top: 1rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #3f3f37;
+}
+
+/* HEADER STYLING */
+h1 {
+  font-family: "Moret";
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Moret";
+  font-weight: 400;
+  font-size: 1.75rem;
+<<<<<<< HEAD
+  margin-top: 1rem;
+  margin-bottom: .8rem;
+  color: #3f3f37;
+=======
+  margin-top: 4rem;
+  margin-bottom: 0;
+  color: #3F3F37;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+}
+
+h3 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+h4 {
+<<<<<<< HEAD
+  margin-top: 2em;
+  font-weight: 400;
+  color: #3f3f37;
+=======
+  margin-top: 0;
+  font-weight: 300;
+  color: #E65A50;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+}
+
+h5 {
+  font-weight: 400;
+  font-style: oblique;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  max-width: 100%;
+}
+
+<<<<<<< HEAD
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+/* NAV STYLING */
+
+nav {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #3f3f37;
+=======
+nav a {
+  font-family: "PP Acma", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  color: black;
+  margin: 0 0.75rem 0 0;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+<<<<<<< HEAD
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #cf473e;
+=======
+nav a:hover,
+nav a:focus {
+  color: #E65A50;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+}
+
+/* In text link styling */
+
+p a,
+h5 a {
+<<<<<<< HEAD
+  color: #3f3f37;
+=======
+  color: black;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+  transition: color 0.2s;
+}
+
+p a:hover,
+h5 a:hover {
+  color: #cf473e;
+}
+
+p a:focus,
+h5 a:focus {
+  border: 1px solid #cf473e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Img link styling - Adapted from ChatGPT */
+
+a img {
+  transition: transform 0.2s;
+  width: 10rem;
+  height: auto;
+}
+
+a:hover img {
+  transform: scale(1.05);
+}
+
+code {
+  background-color: #dbd8c0;
+  padding: 0.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.spacer {
+  padding-bottom: 20px;
+}
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: #3f3f37;
+  background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover,
+.button-nav:focus {
+  background-color: rgb(200, 200, 200);
+}
+
+/* Styling for the review forms - Adapted from Shay Howe */
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+form {
+<<<<<<< HEAD
+  font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+  border: 2px solid #84bfb5;
+  border-radius: 5px;
+  background-color: #29272116;
+=======
+  border: 0.2rem solid #94d5d9;
+  border-radius: 10px;
+  margin: 0;
+  font: 1rem/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  padding: 3rem;
+  width: 100%;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+}
+
+fieldset {
+  margin: 0;
+  padding: 10px;
+  border: 0;
+}
+
+input,
+.btn {
+  border-radius: 5px;
+<<<<<<< HEAD
+  font: .9em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 10px;
+}
+
+.form-text label {
+=======
+  font: 1rem/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+.review-text {
+  padding-left: 1rem;
+}
+
+.review-text label {
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+  display: block;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+}
+<<<<<<< HEAD
+.form-text input, textarea{
+  border: 2px solid #84bfb5;
+  padding: 6px;
+  margin-top: .5em;
+}
+
+.form-action {
+  display: flex;
+}
+.form-action .btn {
+  background: #84bfb5;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+=======
+
+.review-text input,
+textarea {
+  border: 1px solid #94d5d9;
+  padding: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.review-action {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.review-action .btn {
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+  float: left;
+  padding: 8px 16px;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+<<<<<<< HEAD
+  background: #cf473e;
+}
+.form-action label {
+=======
+  border: none;
+  background: #cf473e;
+}
+
+.review-action label {
+  color: #94d5d9;
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+/* Product Styling */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -2rem;
+}
+
+.product {
+  box-sizing: border-box;
+  margin: 2rem;
+}
+
+<<<<<<< HEAD
+/* CART PAGE STYLING */
+.cart-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+/* CART ITEM STYLING */
+.cart-items {
+  flex-grow: 1;
+}
+.cart-item {
+  display: flex;
+  justify-content:flex-start;
+  align-items: baseline;
+  box-sizing: border-box;
+}
+
+.cart-item p, .cart-item h4{
+  margin-left: 2em;
+}
+
+.cart-item img {
+  margin-top: 1em;
+  width: 5em;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.total{
+  display: flex;
+  align-items: baseline;
+}
+
+.total p{
+  margin-left: 2em;
+}
+
+/* ABOUT PAGE STYLING */
+.about-image img{
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* CONTACT FORM STYLING */
+
+
+=======
+.productimg {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.prod-detail-container {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+>>>>>>> 405795819987e37a38de50849411b747dd3569dd
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* 
+  COLUMNS -------------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1; 
+  margin: px; 
+
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Gap between columns */
+}
+
+.middle-align-col {
+  align-items: center;
+}
+
+.two-item {
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.header-container {
+  overflow: hidden;
+}
+
+.nav-col {
+  width: 40%;
+  float: right;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.nav-logo {
+  width: 60%;
+  float: left;
+  
+}
+
+
+/*
+  HOME ------------------------
+*/
+
+#eventbanner {
+  background-color: #A5E1D7;
+  height: 300px;
+}
+
+/*
+  FOOTER ------------------------
+*/
+
+footer {
+  background-color: #FDEAC8;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+footer p {
+  margin-bottom: 0.7rem;
+}
+
+footer .container {
+  padding-left: 50%;
+}
