@@ -190,7 +190,8 @@ form {
   font: 1rem/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   padding: 2rem;
-  width: 40%;
+  min-width: fit-content;
+  width: 40%; 
 }
 
 .wide-form {
