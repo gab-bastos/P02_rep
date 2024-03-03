@@ -194,6 +194,10 @@ form {
   width: 40%; 
 }
 
+input [type=text]{
+  width:80%
+}
+
 .wide-form {
   width: 100%;
 }
