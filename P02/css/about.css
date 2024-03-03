@@ -1,6 +1,17 @@
 /* ABOUT PAGE STYLING */
+.about-container{
+  display: flex;
+  align-items: center;
+  column-gap: 2em;
+}
+
+.about-text{
+  
+  width: 100%;
+}
+
 .about-image img{
-  margin-top: 1rem;
-  max-width: 100%;
-  height: auto;
+  margin-top: 2em;
+  max-width: 20em;
+  border-radius: 50%;
 }
