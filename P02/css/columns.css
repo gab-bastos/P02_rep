@@ -30,7 +30,6 @@
 
 .two-item {
   padding: 40px;
-  border-radius: 5px;
 }
 
 .header-container {
@@ -55,12 +54,13 @@
   .header-container {
     flex-wrap: wrap;
     flex-direction:column;
+    justify-content: start;
   }
 
   .nav-col {
-    float: left;
     text-align: left;
-    width: 100%
+    float: left;
+    width: 100%;
   }
 
   .nav-logo {
@@ -73,6 +73,7 @@
   .two-col {
     display:flex;
     flex-direction: column;
+    gap: 0px;
   }
 
   .two-item {
