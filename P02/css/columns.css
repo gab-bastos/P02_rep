@@ -20,12 +20,12 @@
 
 .two-col {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
   gap: 20px; /* Gap between columns */
 }
 
 .middle-align-col {
-    align-items: center;;
+    align-items: center;
 }
 
 .two-item {
@@ -35,6 +35,7 @@
 
 .header-container {
   overflow: hidden;
+  display:flex;
 }
 
 .nav-col {
@@ -48,4 +49,34 @@
   width: 60%;
   float: left;
   
+}
+
+@media screen and (max-width: 50em) { 
+  .header-container {
+    flex-wrap: wrap;
+    flex-direction:column;
+  }
+
+  .nav-col {
+    float: left;
+    text-align: left;
+    width: 100%
+  }
+
+  .nav-logo {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 40em) {
+  .two-col {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .two-item {
+    padding-bottom: 15%;
+    text-align:center;
+  }
 }

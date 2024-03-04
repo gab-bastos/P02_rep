@@ -41,3 +41,8 @@
     transition-property: background-color, color;
     transition-duration: 0.5s;
 }
+
+@media screen and (max-width: 50em) { 
+  .eventbanner {
+    height:fit-content;
+  }
