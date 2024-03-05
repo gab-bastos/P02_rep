@@ -1,9 +1,14 @@
 .contact-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .contact-container form {
   max-width: 720px;
+}
+
+.contact-container h2{
+  margin-top: 0;
+  margin-bottom:2rem;
 }
 .contact-info {
   margin-left: 2em;
