@@ -6,7 +6,7 @@
   justify-content: flex-end;
   align-items: flex-start;
   flex-direction: row;
-  align-items:flex-start;
+
 }
 
 /* CART ITEM STYLING */
@@ -59,6 +59,11 @@
 
 .remove-item a:hover{
   color: #cf473e;
+}
+
+.wide-form h2{
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .form-text{
