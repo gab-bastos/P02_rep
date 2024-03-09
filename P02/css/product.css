@@ -22,3 +22,18 @@
   gap: 100px;
   flex-wrap: wrap;
 }
+
+.review {
+  border-bottom: #3F3F37 solid 1px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+}
+
+@media screen and (max-width: 50em) { 
+  .prod-detail-container {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+  }
+}
