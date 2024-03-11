@@ -9,49 +9,51 @@
     <link href="css/about.css" rel="stylesheet" />
     <link href="css/columns.css" rel="stylesheet" />
     <link href="css/cart.css" rel="stylesheet" />
-    <link href="css/product.css" rel="stylesheet" />    <link rel="stylesheet" href="https://use.typekit.net/ige5vcl.css" />
+    <link href="css/product.css" rel="stylesheet" />    
+    <link rel="stylesheet" href="https://use.typekit.net/ige5vcl.css" />
   </head>
 
-  <header>
-    <div class="header-container">
-        <div class="nav-logo">
-            <h1><a href="home.html">Strings & Things</a></h1>
-
-             <p>A place to buy some of your favourite gear.</p>
-        </div>
-
-        <div class="nav-col">
-
-            <nav>
-                <ul>
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="shop.html">SHOP</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="checkout.html">CART</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-  </header>
-
   <body>
+
+    <header>
+      <div class="header-container">
+          <div class="nav-logo">
+              <h1><a href="home.html">Strings & Things</a></h1>
+  
+               <p>A place to buy some of your favourite gear.</p>
+          </div>
+  
+          <div class="nav-col">
+  
+              <nav>
+                  <ul>
+                  <li><a href="home.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="shop.html">SHOP</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                  <li><a href="checkout.html">CART</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+    </header>
+
     <!-- Shop guitars // -->
     <section id="guitars">
       <h2>Shop Guitars</h2>
       <h4>An example of the page in context.</h4>
 
-      <section class="element">
+      <section>
           <div class="container">
+            <div class="container">
               <div class="column">
                   <a href="American-Pro-II-Telecaster.html">
                       <img
                       src="./assets/Pro2Tele.png"
                       alt="American Pro II Telecaster"
                       class="productimg">
-                      <p><a href="American-Pro-II-Telecaster.html">American Pro II Telecaster
-                          <br> <strong>$2399.99</strong>
-                      </a></p>
+                      <p class="productlink">American Pro II Telecaster
+                          <br> <strong>$2399.99</strong></p>
                   </a>
               </div>
               <div class="column">
@@ -60,9 +62,8 @@
                       src="./assets/PlayerStrat.png"
                       alt="Fender Player Stratocaster"
                       class="productimg"/>
-                      <p><a href="Fender-Player-Stratocaster.html">Fender Player Stratocaster
-                          <br> <strong>$1099.99</strong>
-                      </a></p>
+                      <p class="productlink">Fender Player Stratocaster
+                          <br> <strong>$1099.99</strong></p>
                   </a>
               </div>
               <div class="column">
@@ -71,9 +72,8 @@
                       src="./assets/PRSMcCarty.png"
                       alt="PRS McCarty Brazilian 10 Top"
                       class="productimg">
-                      <p><a href="">PRS McCarty Brazilian 10 Top
-                          <br> <strong>$4999.99</strong>
-                      </a></p>
+                      <p class="productlink">PRS McCarty Brazilian 10 Top
+                          <br> <strong>$4999.99</strong></p>
                   </a>
               </div>
               <div class="column">
@@ -82,9 +82,8 @@
                       src="./assets/GretschPenguin.png"
                       alt="Gretsch G6134TG Paisley Penguin"
                       class="productimg">
-                      <p><a href="American-Pro-II-Telecaster.html">Gretsch G6134TG Paisley Penguin
-                          <br> <strong>$4829.99</strong>
-                      </a></p>
+                      <p class="productlink">Gretsch G6134TG Paisley Penguin
+                          <br> <strong>$4829.99</strong></p>
                   </a>
               </div>
           </div>
@@ -119,7 +118,7 @@
         <p>nav</p>
 
         <h4>Sample Code:</h4>
-        <code>&lt;a href="homw.html"&gt;HOME&lt;/a&gt;</code>
+        <code>&lt;a href="home.html"&gt;HOME&lt;/a&gt;</code>
 
         <h4>Rendered Elements:</h4>
 
@@ -146,20 +145,20 @@
           <br />&lt;label&gt; <br />Review <br />&lt;textarea type="review"
           name="review"&gt; &lt;/textarea&gt; <br />&lt;/label&gt;
           <br />&lt;div&gt; Rating&lt;/div&gt; <br />&lt;label&gt;
-          <br />&lt;input type="radio" name="rating" value="1"&gt; 1*
+          <br />&lt;input type="radio" name="rating" value="1"&gt; ★
           <br />&lt;/label&gt;
 
           <br />&lt;label&gt; <br />&lt;input type="radio" name="rating"
-          value="2"&gt; 2* <br />&lt;/label&gt;
+          value="2"&gt; ★ ★ <br />&lt;/label&gt;
 
           <br />&lt;label&gt; <br />&lt;input type="radio" name="rating"
-          value="3"&gt; 3* <br />&lt;/label&gt;
+          value="3"&gt; ★ ★ ★ <br />&lt;/label&gt;
 
           <br />&lt;label&gt; <br />&lt;input type="radio" name="rating"
-          value="4"&gt; 4* <br />&lt;/label&gt;
+          value="4"&gt; ★ ★ ★ ★ <br />&lt;/label&gt;
 
           <br />&lt;label&gt; <br />&lt;input type="radio" name="rating"
-          value="5"&gt; 5* <br />&lt;/label&gt;
+          value="5"&gt; ★ ★ ★ ★ ★<br />&lt;/label&gt;
 
           <br />&lt;/fieldset&gt;
 
@@ -243,7 +242,7 @@
         <code
           >&lt;a href="American-Pro-II-Telecaster.html""&gt;
 
-          <br />&lt;img src="./assets/Pro2Tele.png" alt=""American Pro II Telecaster"&gt;
+          <br />&lt;img src="./assets/Pro2Tele.png" alt=""American Pro II Telecaster" class="productimg"&gt;
 
           <br />&lt;/a&gt;<br />
         </code>
@@ -527,6 +526,11 @@
           >
             https://reverb.com/ca/item/75727724-fender-american-professional-ii-telecaster-rosewood-fingerboard-mystic-surf-green </a
           >.
+        </li>
+
+        <li>
+          Bartel, R. (2018, August). <strong>Person playing guitar [Photograph].</strong> 
+          Unsplash. <a href="https://unsplash.com/photos/Ua4OpvJ8CT8">https://unsplash.com/photos/Ua4OpvJ8CT8</a>
         </li>
       </ul>
     </section>
